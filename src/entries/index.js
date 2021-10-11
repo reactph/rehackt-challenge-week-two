@@ -14,14 +14,14 @@ const entries = [
   {
     component: lazy(() => import("./SampleEntry/SampleEntry")),
     slug: "SampleEntry",
-    title: "Change Me",
+    title: "(Sample) Retro Google",
     description:
-      "Change Me",
-    author: "Change Me",
-    email: "change@me.com",
-    linkedIn: "https://www.linkedin.com/in/changeme/",
-    website: "https://change.me",
-  }
+      "The Google homepage as it launched in 1998 recreated using React",
+    author: "Miguel N. Galace",
+    email: "galacemiguel@gmail.com",
+    linkedIn: "https://linkedin.com/in/galacemiguel/",
+    website: "https://galacemiguel.com/",
+  },
 ]
 
 export default entries
