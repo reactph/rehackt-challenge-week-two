@@ -31,28 +31,6 @@ body {
   color: #030f25;
 }
 
-button,
-.button {
-  padding: 10px 20px;
-  border-radius: 12px;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  border: 1px solid #2670f5;
-  color: #2670f5;
-  cursor: pointer;
-  transform: scale(1);
-  transition: color 0.1s ease-out, background-color 0.1s ease-out,
-    transform 0.1s ease-out;
-  text-decoration: none;
-}
-
-button:hover {
-  background-color: #2670f5;
-  color: #ffffff;
-  transform: scale(1.05);
-}
-
 body,
 #root,
 #root > div {

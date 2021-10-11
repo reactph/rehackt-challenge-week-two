@@ -2,7 +2,7 @@
   <img src="./public/header-logo.png" width="33.33%" />
 </p>
 
-# CHANGE ME: TITLE OF THE CHALLENGE
+# Retro UI
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/badge/hacktoberfest-2021-red)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
@@ -13,23 +13,25 @@
 
 The brief is simple:
 
-> CHANGE ME.
+> Recreate a user interface from back in the day using React!
+
+It doesn't have to be a website. Think outside box: old cellphones, handheld game consoles, or discontinued operating systems/applications – whichever will tour us down memory lane!
 
 ## Getting started
 
 1. Clone the repository using HTTPS or SSH:
 
     ```sh
-    git clone https://github.com/reactph/rehackt-challenge-week-<change_me>.git
+    git clone https://github.com/reactph/rehackt-challenge-week-two.git
 
     # via SSH:
-    # git clone git@github.com:reactph/rehackt-challenge-week-<change_me>.git
+    # git clone git@github.com:reactph/rehackt-challenge-week-two.git
     ```
 
 1. `cd` into the project and install its dependencies (we prefer [`yarn`](https://yarnpkg.com/)):
 
     ```sh
-    cd rehackt-challenge-week-<change_me> && yarn install
+    cd rehackt-challenge-week-two && yarn install
     ```
 
 1. Start the development server and you should be able to access the site at http://localhost:3000.

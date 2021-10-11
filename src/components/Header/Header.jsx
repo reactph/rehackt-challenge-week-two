@@ -5,8 +5,8 @@ const Header = () => (
   <header className={styles.header}>
     <img src="/header-logo.png" />
     <div className={styles.challengeInfo}>
-      <h2>Turn it up</h2>
-      <p>Make the best, worst or weirdest volume slider</p>
+      <h2>Retro UI</h2>
+      <p>Recreate a user interface from back in the day using React!</p>
     </div>
     <div className={styles.buttonMenu}>
       <a
@@ -14,7 +14,7 @@ const Header = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <button>Join now</button>
+        <button className={styles.button}>Join now</button>
       </a>
       {/* TODO: Add modal to show info about Rehackt */}
       {/* <button>About Rehackt</button> */}

@@ -1,0 +1,52 @@
+.page {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+}
+
+.wrapper {
+  width: 70%;
+}
+
+.header,
+.content,
+.footer {
+  text-align: center;
+}
+
+.form {
+  background-color: #eee;
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.searchInput {
+  width: 50%;
+}
+
+.searchFormAside {
+  font-style: italic;
+}
+
+.searchEngineList {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.searchEngineListItem {
+  display: inline;
+}
+
+.aboutGoogleHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.newsletterArchiveLink {
+  font-size: small;
+}
