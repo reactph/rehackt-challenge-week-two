@@ -2,7 +2,7 @@
   <img src="./public/header-logo.png" width="33.33%" />
 </p>
 
-# Retro UI
+# A Retro...spective
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/badge/hacktoberfest-2021-red)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
