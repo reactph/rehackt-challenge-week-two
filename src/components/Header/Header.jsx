@@ -5,7 +5,7 @@ const Header = () => (
   <header className={styles.header}>
     <img src="/header-logo.png" />
     <div className={styles.challengeInfo}>
-      <h2>Retro UI</h2>
+      <h2>A Retro...spective</h2>
       <p>Recreate a user interface from back in the day using React!</p>
     </div>
     <div className={styles.buttonMenu}>
