@@ -22,6 +22,16 @@ const entries = [
     linkedIn: "https://linkedin.com/in/galacemiguel/",
     website: "https://galacemiguel.com/",
   },
+  {
+    title: "DVD Logo",
+    slug: "DVDLogo",
+    description: "Bouncing DVD Logo",
+    author: "Insidiae",
+    email: "insidiae423@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/insidiae423/",
+    website: "https://github.com/Insidiae",
+    component: lazy(() => import("./DVDLogo/DVDLogo")),
+  },
 ]
 
 export default entries
