@@ -1,0 +1,20 @@
+.gameCanvas {
+    background-color: black;
+}
+
+.winner {
+    width: 100%;
+    height: 100%;
+    background: url("https://i.ibb.co/wQyZSBs/Do-Jh-S7-WVAAEhsm-G.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1 1 100%;
+}
