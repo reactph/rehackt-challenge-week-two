@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React, { useContext, useEffect } from "react"
 import { Route, Switch } from "react-router-dom"
 import ContributorDetails from "../ContributorDetails/ContributorDetails"
 import styles from "./EntryCard.module.css"
@@ -8,7 +8,7 @@ import {
   faArrowCircleRight,
   faArrowCircleLeft,
 } from "@fortawesome/free-solid-svg-icons"
-import { useHistory } from "react-router"
+import { useHistory, useLocation } from "react-router"
 
 const generateRoutes = (entries) => {
   if (entries.length === 0) {
@@ -29,6 +29,7 @@ const generateRoutes = (entries) => {
 
 const EntryCard = () => {
   const history = useHistory()
+  const location = useLocation()
   const { entries, currentSlug } = useContext(EntriesContext)
   let currentEntryIndex = 0
 
@@ -45,13 +46,19 @@ const EntryCard = () => {
       ? entries[currentEntryIndex + 1]
       : entries[0]
 
+  useEffect(() => {
+    if (!currentSlug && location.pathname === "/") {
+      history.push(`/${entries[currentEntryIndex].slug}`)
+    }
+  }, [history, location, currentSlug, entries, currentEntryIndex])
+
   return (
     <div className={styles.container}>
       <FontAwesomeIcon
         icon={faArrowCircleLeft}
         size="3x"
         className={styles.arrow}
-        onClick={() => previous && history.push(`${previous.slug}`)}
+        onClick={() => previous && history.push(`/${previous.slug}`)}
       />
       <div className={styles.entryCard}>
         <Switch>{generateRoutes(entries)}</Switch>
@@ -61,7 +68,7 @@ const EntryCard = () => {
         icon={faArrowCircleRight}
         size="3x"
         className={styles.arrow}
-        onClick={() => next && history.push(`${next.slug}`)}
+        onClick={() => next && history.push(`/${next.slug}`)}
       />
     </div>
   )
