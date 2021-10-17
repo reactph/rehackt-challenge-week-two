@@ -32,6 +32,16 @@ const entries = [
     website: "https://github.com/Insidiae",
     component: lazy(() => import("./DVDLogo/DVDLogo")),
   },
+  {
+    title: "Just A Maze ;)",
+    slug: "JustAMaze",
+    description: "Hehe.",
+    author: "Franrey Saycon",
+    email: "franreysaycon@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/fssaycon/",
+    website: "https://github.com/franreysaycon",
+    component: lazy(() => import("./Maze/Maze")),
+  },
 ]
 
 export default entries
