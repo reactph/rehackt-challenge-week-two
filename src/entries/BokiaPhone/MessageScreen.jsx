@@ -1,8 +1,7 @@
-import React, { useRef } from "react"
+import React, { useRef, useMemo } from "react"
 import styled from "styled-components"
 import Screen from "./Screen"
 import { useHistory, useParams } from "react-router"
-import { useMemo } from "react/cjs/react.development"
 import { messages } from "./constant"
 
 const Message = styled.p`

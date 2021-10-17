@@ -1,9 +1,8 @@
-import React, { useRef, useState } from "react"
+import React, { useRef, useState, useEffect } from "react"
 import Screen from "./Screen"
 import { useHistory } from "react-router"
 import List from "./components/List"
 import { contacts } from "./constant"
-import { useEffect } from "react/cjs/react.development"
 
 const ContactScreen = () => {
   const history = useHistory()
