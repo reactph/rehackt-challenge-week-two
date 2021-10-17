@@ -22,7 +22,7 @@ const Maze = () => {
 
   useEffect(() => {
     if (!scare) {
-      const scareTimer = setTimeout(winTheGame, 10000)
+      const scareTimer = setTimeout(winTheGame, 20000)
       return () => {
         clearTimeout(scareTimer)
       }
