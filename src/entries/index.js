@@ -35,7 +35,8 @@ const entries = [
   {
     title: "Just A Maze ;)",
     slug: "JustAMaze",
-    description: "Drag the red box carefully to the red area to win. Be careful of going out of bounds or else you'll go back again.",
+    description:
+      "Drag the red box carefully to the red area to win. Be careful of going out of bounds or else you'll go back again.",
     author: "Franrey Saycon",
     email: "franreysaycon@gmail.com",
     linkedIn: "https://www.linkedin.com/in/fssaycon/",
