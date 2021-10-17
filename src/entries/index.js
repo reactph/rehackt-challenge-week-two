@@ -42,6 +42,17 @@ const entries = [
     website: "https://github.com/franreysaycon",
     component: lazy(() => import("./Maze/Maze")),
   },
+  {
+    title: "Bokia 3210",
+    slug: "BokiaPhone",
+    description:
+      "Your old, trusty brick phone. Use the buttons (cancel, accept, up, down) to control the phone. Use the keyboard to type your message and the direction keys to play a game of Snek.",
+    author: "Carl de Guia",
+    email: "carl.2795@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/carl-justin-de-guia-b40a1b97/",
+    website: "https://twitter.com/carldegs",
+    component: lazy(() => import("./BokiaPhone/BokiaPhone")),
+  },
 ]
 
 export default entries
